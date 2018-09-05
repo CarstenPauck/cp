@@ -15,4 +15,15 @@
 <xsd:field xpath="person1Id"/>
 </xsd:unique>
 </xsd:element>
+    <xsd:element name="sss" type="s1">
+<xsd:unique name="sss">
+<xsd:selector xpath="."/>
+<xsd:field xpath="sssId"/>
+</xsd:unique>
+</xsd:element>
+    <xsd:complexType name="s1">
+<xsd:all>
+<xsd:element name="sssId" type="xsd:string"/>
+</xsd:all>
+</xsd:complexType>
 </xsd:schema>
