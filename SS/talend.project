@@ -27,8 +27,6 @@
       <relatedItems xmi:id="_Q5xloa-zEeiCr6atYLHZgQ" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
     <deletedFolders>MDM/datacontainer/container1</deletedFolders>
-    <deletedFolders>MDM/datamodel/cat1/adssa</deletedFolders>
-    <deletedFolders>MDM/datamodel/cat1</deletedFolders>
     <migrationTask xmi:id="_dMnssK-yEeiCr6atYLHZgQ" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_dMnssa-yEeiCr6atYLHZgQ" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_dMnssq-yEeiCr6atYLHZgQ" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
