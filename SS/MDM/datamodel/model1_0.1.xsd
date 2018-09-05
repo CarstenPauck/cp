@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="person1">
+<xsd:complexType>
+<xsd:all>
+<xsd:element name="person1Id" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="Vorname" type="xsd:string"/>
+<xsd:element maxOccurs="1" minOccurs="0" name="Element" type="xsd:string"/>
+</xsd:all>
+</xsd:complexType>
+<xsd:unique name="person1">
+<xsd:selector xpath="."/>
+<xsd:field xpath="person1Id"/>
+</xsd:unique>
+</xsd:element>
+</xsd:schema>
